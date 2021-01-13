@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arunika.arlingtonauto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controller.RegistrationActivity" />
+        <activity android:name=".controller.CustomerHomeActivity" />
+        <activity android:name=".controller.ManagerHomeActivity" />
+        <activity android:name=".controller.AdminHomeActivity" />
+        <activity android:name=".controller.RevokeRenterActivity" />
+        <activity android:name=".controller.UpdateProfileActivity" />
+        <activity android:name=".controller.SystemUserActivity" />
+        <activity android:name=".controller.FindUserProfileActivity" />
+        <activity android:name=".controller.EditAnotherUserActivity" />
+        <activity android:name=".controller.RequestRentalActivity" />
+        <activity android:name=".controller.ReserveRentalActivity" />
+        <activity android:name=".controller.ConfirmRentalActivity" />
+        <activity android:name=".controller.SummaryRentalActivity" />
+        <activity android:name=".controller.FindMyRRActivity" />
+        <activity android:name=".controller.ViewMyRRActivity" />
+        <activity android:name=".controller.FindAllRRActivity" />
+        <activity android:name=".controller.ViewAllRRActivity" />
+        <activity android:name=".controller.FindAllAvailableCarsActivity" />
+        <activity android:name=".controller.ViewAllAvailableCarsActivity" />
+        <activity android:name=".controller.ViewRRDetailsActivity" />
+        <activity android:name=".controller.RevokeeActivity" />
+    </application>
+</manifest>
